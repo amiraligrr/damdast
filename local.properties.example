@@ -1,0 +1,6 @@
+# Copy this file to local.properties and fill in your own values.
+sdk.dir=/path/to/Android/Sdk
+# Tapsell app key. Never commit the real value.
+tapsell.app.key=
+# Optional: disable all advertising (useful for development).
+damdast.ads.disabled=false

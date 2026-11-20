@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_qr"
+        android:shortcutId="qr_scanner"
+        android:shortcutLongLabel="@string/shortcut_scan_qr_long"
+        android:shortcutShortLabel="@string/shortcut_scan_qr_short">
+        <intent
+            android:action="ir.amiraligrr.damdast.SHORTCUT"
+            android:targetClass="ir.amiraligrr.damdast.MainActivity"
+            android:targetPackage="ir.amiraligrr.damdast">
+            <extra
+                android:name="damdast.shortcut"
+                android:value="qr_scanner" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_calculator"
+        android:shortcutId="calculator"
+        android:shortcutLongLabel="@string/shortcut_calculator_long"
+        android:shortcutShortLabel="@string/shortcut_calculator_short">
+        <intent
+            android:action="ir.amiraligrr.damdast.SHORTCUT"
+            android:targetClass="ir.amiraligrr.damdast.MainActivity"
+            android:targetPackage="ir.amiraligrr.damdast">
+            <extra
+                android:name="damdast.shortcut"
+                android:value="calculator" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_notes"
+        android:shortcutId="notes"
+        android:shortcutLongLabel="@string/shortcut_notes_long"
+        android:shortcutShortLabel="@string/shortcut_notes_short">
+        <intent
+            android:action="ir.amiraligrr.damdast.SHORTCUT"
+            android:targetClass="ir.amiraligrr.damdast.MainActivity"
+            android:targetPackage="ir.amiraligrr.damdast">
+            <extra
+                android:name="damdast.shortcut"
+                android:value="notes" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

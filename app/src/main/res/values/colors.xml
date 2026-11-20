@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_navy">#080D1B</color>
+    <color name="brand_navy_elevated">#101a30</color>
+    <color name="brand_purple">#7C5CFF</color>
+    <color name="brand_purple_light">#A78BFA</color>
+    <color name="splash_background">#F6F7FC</color>
+    <color name="ic_launcher_background">#0A1022</color>
+</resources>
